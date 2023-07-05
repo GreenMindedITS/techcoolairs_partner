@@ -1,0 +1,140 @@
+.page-loader-wrapper {
+    z-index: 9999;
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    background: #6969694d;
+    overflow: hidden;
+    text-align: center;
+}
+.content-header{
+    padding: 10px 0.5rem!important;
+}
+.btn-primary-gmis{
+    background-color: #106552!important;
+    border-color: #106552!important;
+    color:#fff!important;
+}
+.bg-gmis-navbar, .bg-gmis-infobox, .bg-gmis{
+    background-color:#106552!important;
+}
+.sidebar-dark-info .nav-sidebar > .nav-item > .nav-link.active, .sidebar-light-info .nav-sidebar > .nav-item > .nav-link.active, .bg-gmis-userheader{
+    background-color:#419873!important;
+}
+.content-wrapper{
+    background-color:#F5F5F5!important;
+}
+.card-gmis.card-outline{
+    border-top:3px solid #106552!important;
+}
+.info-box{
+    padding:0.5rem 1rem!important;
+}
+.info-box-content{
+    padding:0 20px!important;
+}
+.info-box-gmis{
+    align-items: flex-end!important;
+}
+.info-box-text-gmis{
+    padding: 1rem;
+    border-left-style: solid;
+    border-left-color: #888;
+    font-weight:bold;
+}
+.badge-gmis{
+    padding:0.4em 1em 0.5em 1em!important;
+}
+.logo-link-tablet{
+    display:none;
+}
+.gmis-nav-link{
+    padding:3.5rem!important;
+    background-color:grey!important;
+    color:#fff!important;
+    font-size: 20px;
+}
+.nav-link.active{
+    color:#fff;
+    background-color:#106552!important;
+    font-weight:bold;
+}
+.nav-pills .nav-link:not(.active):hover{
+    color: #106552!important;
+}
+.widget-user .widget-user-image{
+    left:49%!important;
+    top:65px!important;
+}
+.widget-user .widget-user-image > img{
+    width:120px!important
+}
+.widget-user-header{
+    height:140px!important;
+}
+.widget-user-username{
+    color:#fff;
+    font-size:28px!important;
+    font-weight:bold!important;
+}
+.page-item.active .page-link{
+    background-color:#106552!important;
+    border-color:#106552!important;
+    color:#fff!important;
+}
+.gmis-profile-img{
+    width:115px!important;
+}
+.gmis-technician-modify-img{
+    width:150px!important;
+}
+.technician-modify-username{
+    font-size:21px;
+    margin-top:10px;
+}
+.technician-modify-id{
+    margin-bottom:0.5rem!important;
+}
+.fc-scrollgrid{
+    border:none!important;
+}
+.fc-today-button, .fc-prev-button, .fc-next-button{
+    background-color: #106552!important;
+    border-color: #106552!important;  
+}
+.fc-daygrid-event-harness{
+    margin-top:-30px!important;
+}
+.fc-bg-event{
+    opacity:1!important;
+}
+@media (max-width:796px){
+    .logo-link-tablet{
+        display:inline-flex;
+    }
+    .nav-tablet{
+        justify-content:center;
+    }
+    .logo-tablet{
+        height:33px;
+    }
+    .info-box-gmis{
+        padding:0!important;
+    }
+    .info-box-content{
+        flex-wrap: wrap;
+    }
+    .info-box-icon{
+        width: 60px!important;
+        height: 60px;
+        margin: auto 0!important;
+        font-size: 1.725rem!important;
+    }
+    .timeline, .timeline-header{
+        font-size:0.9rem!important;
+    }
+}

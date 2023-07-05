@@ -1,0 +1,52 @@
+// Variables
+@import 'variables';
+
+// Bootstrap
+@import '~admin-lte/build/scss/adminlte';
+
+// Jquery UI
+@import '~jquery-ui-bundle/jquery-ui.css';
+@import '~jquery-ui-bundle/jquery-ui.min.css';
+
+// Font Awesome
+@import '~@fortawesome/fontawesome-free/scss/brands';
+@import '~@fortawesome/fontawesome-free/scss/regular';
+@import '~@fortawesome/fontawesome-free/scss/solid';
+@import '~@fortawesome/fontawesome-free/scss/fontawesome';
+
+// Datatables
+@import "~datatables.net-bs4/css/dataTables.bootstrap4.css";
+@import "~datatables.net-buttons-bs4/css/buttons.bootstrap4.css";
+
+// Sweetalert
+@import '~sweetalert2/dist/sweetalert2.css';
+@import '~sweetalert2/dist/sweetalert2.min.css';
+
+// Toastr
+@import '~toastr/build/toastr.css';
+@import '~toastr/build/toastr.min.css';
+
+// Select2
+@import '~select2/dist/css/select2.css';
+@import '~select2/dist/css/select2.min.css';
+
+// jsgrid
+@import '~jsgrid/css/jsgrid.css';
+
+// Chartjs
+@import '~chart.js/dist/Chart.css';
+
+// Bootstrap Datetimepicker
+// @import '~bootstrap-datetimepicker-npm/build/css/bootstrap-datetimepicker.css';
+
+// Bootstrap Tempusdominus
+@import '~tempusdominus-bootstrap-4/build/css/tempusdominus-bootstrap-4.css';
+
+// Date Range Picker
+@import '~daterangepicker/daterangepicker.css';
+
+// Fullcalendar
+// @import '@fullcalendar/core/main.css';
+// @import '@fullcalendar/daygrid/main.css';
+// @import '@fullcalendar/timegrid/main.css';
+// @import '@fullcalendar/list/main.css';
